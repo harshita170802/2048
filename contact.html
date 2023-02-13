@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITNESS BUDDY</title>
+    <link rel="stylesheet" type="text/css" href="sstyle.css">
+  </head>
+  <body>
+    <header>
+      <h1>FITNESS BUDDY</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="contact">
+        <center style="font-size: xx-large;"><b>CONTACT US</b></center>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        <br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <br><br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <br><br>
+            <button  type="submit" id="submit" >SUBMIT</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2023 Fictional Small Business</p>
+    </footer>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+<script src="data.js"></script>
+  </body>
+</html>

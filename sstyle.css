@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #4f53b9;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav a {
+    color: #333;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  label, input[type="submit"] {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+  }
+  button{
+    color: #fff;
+    background-color:#4f53b9;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 90vw;
+  }
+
+  footer {
+    background-color: #4f53b9;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media (max-width: 600px) {
+    nav, main, footer {
+      padding: 10px;
+    }
+    
+    nav a {
+      padding: 10px;
+    }
+  }
+  
